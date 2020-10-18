@@ -1,0 +1,173 @@
+@media(max-width: 767px){
+#headerDesktop{
+    visibility: hidden;
+}
+#headerMobile span {
+    float: left;
+    font-weight: bolder;
+    margin-right: 3%;
+}
+#headerMobile::after{
+    clear: both;
+}
+#a{
+    background: #173f5f;
+    height: 75px;
+    width:  100%; 
+    border: 0.5px solid black;
+    position: relative;
+    
+}
+
+#a span{
+    display: inline-block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+
+   
+}
+
+#b{
+    background: #20639b;
+    height: 150px;
+    width:  100%; 
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+
+#b span{
+    display: inline-block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   
+}
+
+#c{
+    background: #3CAEA3;
+    height: 125px;
+    width:  100%; 
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+
+#c span{
+    display: inline-block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   
+}
+
+#d{
+    background: #F6D55C;
+    height: 125px;
+    width:  100%; 
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+
+#d span{
+    display: inline-block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   
+}
+#e{
+    background: #ED553B;
+    height: 250px;
+    width:   50%; 
+    float: left;
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+
+#e span{
+    display: inline-block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   
+}
+#f{
+    background: #1b3142;
+    height: 250px;
+    width:   50%; 
+    float: left;
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+
+#f span{
+    display: inline-block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   
+}
+
+
+
+#g{
+    background: #2b5272;
+    height: 250px;
+    width:   50%; 
+    float: left;
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+
+#g span{
+    display: inline-block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   
+}
+
+#h{
+    background: #377e77;
+    height: 250px;
+    width:   50%; 
+    float: left;
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+
+#h span{
+    display: inline-block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   
+}
+
+
+#i{
+    background: #af503f;
+    height: 80px;
+    width:  100%; 
+    border: 0.5px solid black;
+    position: relative;
+    display: inline-block;
+    
+}
+
+#i span{
+    display: inline-block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+
+   
+}
+}

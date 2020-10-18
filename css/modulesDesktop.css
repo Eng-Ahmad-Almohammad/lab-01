@@ -1,0 +1,181 @@
+@media(min-width: 768px){
+#headerMobile{
+    visibility: hidden;
+}
+#headerDesktop span {
+    float: left;
+    font-weight: bolder;
+    margin-right: 3%;
+}
+#headerDesktop::after{
+    clear: both;
+}
+
+#a{
+    background: #d8e0bb;
+    height: 100px;
+    width:  100%; 
+    border: 0.5px solid black;
+    position: relative;
+    
+}
+
+#a span{
+    display: inline-block;
+   position: relative;
+   top: 50%;
+   left: 50%;
+
+   
+}
+
+#b{
+    background: #b6cec7;
+    height: 600px;
+    width:  20.833%; 
+    position: relative;
+    border: 0.5px solid black;
+    
+    float: left;
+    
+}
+
+#b span{
+    display: inline-block;
+  position: relative;
+   top: 50%;
+   left: 50%;
+   
+}
+
+#c{
+    background: #86a3c3;
+    height: 200px;
+    width:  39.5833%; 
+    position: relative;
+    border: 0.5px solid black;
+    float: left;
+    
+
+    
+}
+
+#c span{
+    display: inline-block;
+    position: relative;
+   top: 50%;
+   left: 50%;
+   
+}
+
+#d{
+    background: #7268a6;
+    height: 200px;
+    width:  39.5833%;  
+    position: relative;
+    border: 0.5px solid black;
+    margin-right: 0%;
+    float: left;
+    
+}
+
+#d span{
+    display: inline-block;
+    position: relative;
+   top: 50%;
+   left: 50%;
+   
+}
+#e{
+    background: #6b3074;
+    height: 250px;
+    width:   19.79166%; 
+    float: left;
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+
+#e span{
+    display: inline-block;
+    position: relative;
+   top: 50%;
+   left: 50%;
+   
+}
+#f{
+    background: #a9b67a;
+    height: 250px;
+    width:   19.79166%;  
+    float: left;
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+
+#f span{
+    display: inline-block;
+    position: relative;
+   top: 50%;
+   left: 50%;
+   
+}
+
+
+
+#g{
+    background: #86bbab;
+    height: 250px;
+    width:   19.79166%; 
+    float: left;
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+
+#g span{
+    display: inline-block;
+    position: relative;
+   top: 50%;
+   left: 50%;
+   
+}
+
+#h{
+    background: #698baf;
+    height: 250px;
+    width:   19.79166%;  
+    float: left;
+    position: relative;
+    border: 0.5px solid black;
+    
+}
+
+#h span{
+    display: inline-block;
+    position: relative;
+   top: 50%;
+   left: 50%;
+   
+}
+
+
+#i{
+    background: #5b518d;
+    height: 150px;
+    width:  79.1666%; 
+    border: 0.5px solid black;
+    position: relative;
+    display: inline-block;
+    
+}
+
+#i span{
+    display: inline-block;
+    position: relative;
+   top: 50%;
+   left: 50%;
+
+   
+}
+}
