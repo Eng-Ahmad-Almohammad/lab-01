@@ -1,19 +1,26 @@
-@media(max-width: 767px){
+@media(max-width: 480px){
 #headerDesktop{
+    visibility: hidden;
+    
+    
+
+}
+#headerTablet{ 
     visibility: hidden;
 }
 #headerMobile span {
-    float: left;
+    display: inline-block;
     font-weight: bolder;
     margin-right: 3%;
 }
-#headerMobile::after{
-    clear: both;
+
+#headerMobile p {
+    display: inline-block;
 }
 #a{
     background: #173f5f;
     height: 75px;
-    width:  100%; 
+    grid-column-start: span 2;
     border: 0.5px solid black;
     position: relative;
     
@@ -31,7 +38,7 @@
 #b{
     background: #20639b;
     height: 150px;
-    width:  100%; 
+    grid-column-start: span 2;
     position: relative;
     border: 0.5px solid black;
     
@@ -48,7 +55,7 @@
 #c{
     background: #3CAEA3;
     height: 125px;
-    width:  100%; 
+    grid-column-start: span 2;
     position: relative;
     border: 0.5px solid black;
     
@@ -65,7 +72,7 @@
 #d{
     background: #F6D55C;
     height: 125px;
-    width:  100%; 
+    grid-column-start: span 2;
     position: relative;
     border: 0.5px solid black;
     
@@ -81,8 +88,7 @@
 #e{
     background: #ED553B;
     height: 250px;
-    width:   50%; 
-    float: left;
+    
     position: relative;
     border: 0.5px solid black;
     
@@ -98,8 +104,7 @@
 #f{
     background: #1b3142;
     height: 250px;
-    width:   50%; 
-    float: left;
+    
     position: relative;
     border: 0.5px solid black;
     
@@ -118,8 +123,7 @@
 #g{
     background: #2b5272;
     height: 250px;
-    width:   50%; 
-    float: left;
+   
     position: relative;
     border: 0.5px solid black;
     
@@ -136,8 +140,7 @@
 #h{
     background: #377e77;
     height: 250px;
-    width:   50%; 
-    float: left;
+    
     position: relative;
     border: 0.5px solid black;
     
@@ -155,10 +158,10 @@
 #i{
     background: #af503f;
     height: 80px;
-    width:  100%; 
+    grid-column-start: span 2;
     border: 0.5px solid black;
     position: relative;
-    display: inline-block;
+    
     
 }
 
