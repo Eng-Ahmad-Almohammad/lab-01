@@ -1,14 +1,32 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 @media(max-width: 960px){
 body{
     width: 100%;
+
     
     
 }}
+@media(max-width: 480px){
+    main{
+        display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: auto;
+}}
+
+@media(min-width: 481px){
+    main{
+        display: grid;
+    grid-template-columns: repeat(5,20%) ;
+    grid-template-rows: 100px 200px 250px 150px;
+    
+} 
+}
+
+
 
 @media(min-width:961px ){
 body{

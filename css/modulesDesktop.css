@@ -2,19 +2,22 @@
 #headerMobile{
     visibility: hidden;
 }
+#headerTablet{
+    visibility: hidden;
+}
 #headerDesktop span {
-    float: left;
+    display: inline-block;
     font-weight: bolder;
     margin-right: 3%;
 }
-#headerDesktop::after{
-    clear: both;
+#headerDesktop p {
+    display: inline-block;
 }
-
 #a{
     background: #d8e0bb;
-    height: 100px;
-    width:  100%; 
+   
+   grid-column-start: span 5;
+   
     border: 0.5px solid black;
     position: relative;
     
@@ -31,8 +34,8 @@
 
 #b{
     background: #b6cec7;
-    height: 600px;
-    width:  20.833%; 
+    grid-row: 2 / 5;
+    
     position: relative;
     border: 0.5px solid black;
     
@@ -50,11 +53,11 @@
 
 #c{
     background: #86a3c3;
-    height: 200px;
-    width:  39.5833%; 
+    
+    grid-column-start: span 2;
     position: relative;
     border: 0.5px solid black;
-    float: left;
+    
     
 
     
@@ -70,12 +73,12 @@
 
 #d{
     background: #7268a6;
-    height: 200px;
-    width:  39.5833%;  
+    
+    grid-column-start: span 2;
     position: relative;
     border: 0.5px solid black;
     margin-right: 0%;
-    float: left;
+    
     
 }
 
@@ -88,9 +91,10 @@
 }
 #e{
     background: #6b3074;
-    height: 250px;
-    width:   19.79166%; 
-    float: left;
+    
+   grid-column-start: 2;
+   grid-row-start: 3;
+   
     position: relative;
     border: 0.5px solid black;
     
@@ -105,9 +109,10 @@
 }
 #f{
     background: #a9b67a;
-    height: 250px;
-    width:   19.79166%;  
-    float: left;
+    
+    grid-column-start: 3;
+    grid-row-start: 3;
+    
     position: relative;
     border: 0.5px solid black;
     
@@ -125,9 +130,10 @@
 
 #g{
     background: #86bbab;
-    height: 250px;
-    width:   19.79166%; 
-    float: left;
+    
+    grid-column-start: 4;
+    grid-row-start: 3;
+   
     position: relative;
     border: 0.5px solid black;
     
@@ -143,9 +149,10 @@
 
 #h{
     background: #698baf;
-    height: 250px;
-    width:   19.79166%;  
-    float: left;
+    
+    grid-column-start: 5;
+    grid-row-start: 3;
+    
     position: relative;
     border: 0.5px solid black;
     
@@ -162,8 +169,8 @@
 
 #i{
     background: #5b518d;
-    height: 150px;
-    width:  79.1666%; 
+    grid-column-start: 2;
+    grid-column-end:  6;
     border: 0.5px solid black;
     position: relative;
     display: inline-block;
